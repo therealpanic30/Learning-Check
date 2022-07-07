@@ -78,7 +78,7 @@ int covertInfixToPostfix(char* expr)
         else if (expr[i] == '(' || expr[i] == '[' || expr[i] == '{')
             push(expr[i]); 
 
-        // Here, if we scan character is an ‘)’ or '}' or ']', we need to pop and print from the stack  
+        // Here, if we scan character is an â€˜)â€™ or '}' or ']', we need to pop and print from the stack  
         // do this until an closing pair for above is encountered in the stack. 
         else if (expr[i]==')' || expr[i]=='}'  || expr[i]==']') 
         {
